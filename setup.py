@@ -43,11 +43,11 @@ setup(
     },
     url='https://djangocas.dev',
     download_url='https://github.com/django-cas-ng/django-cas-ng/releases',
-    version='4.0.1',
+    version='4.0.1-md-1',
     python_requires=">=3.5",
     install_requires=[
         'Django>=2.0',
-        'python-cas>=1.4.0',
+        
     ],
     zip_safe=False,  # dot not package as egg or django will not found management commands
 )
